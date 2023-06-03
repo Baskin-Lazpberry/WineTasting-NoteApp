@@ -1,0 +1,29 @@
+{
+  "name": "winetasting-noteapp",
+  "version": "1.0.0",
+  "description": "Wine tasting app",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baskin-Lazpberry/WineTasting-NoteApp.git"
+  },
+  "author": "baskin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baskin-Lazpberry/WineTasting-NoteApp/issues"
+  },
+  "homepage": "https://github.com/Baskin-Lazpberry/WineTasting-NoteApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/node": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "nodemon": "^2.0.22"
+  }
+}
