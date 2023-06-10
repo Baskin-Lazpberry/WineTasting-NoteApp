@@ -1,9 +1,10 @@
 import express from "express";
+import { home, note, noteNew, wine, wineNew } from "./controller";
 
 const router = express.Router();
 
-router.get("/", );
-router.get("/wine/new");
-router.get("/wine/:id");
-router.get("/note/new");
-router.get("/note/:id");
+router.get("/", home);
+router.get("/wine/new", wineNew);
+router.get("/wine/:id", wine);
+router.get("/note/new", noteNew);
+router.get("/note/:id", note);
